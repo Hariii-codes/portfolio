@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*FONTS*/
+@font-face {
+  font-family: 'PPMori-Regular';
+  src: url(../public/assets/fonts/PPMori-Regular.otf);
+}
+
+@font-face {
+  font-family: 'PPMori-SemiBold';
+  src: url(../public/assets/fonts/PPMori-SemiBold.otf);
+}
+
+@font-face {
+  font-family: 'PPEditorialNew-Itlaic';
+  src: url(../public/assets/fonts/PPEditorialNew-Italic.otf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../public/assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Bold';
+  src: url(../public/assets/fonts/FoundersGrotesk-Bold.otf);
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Medium';
+  src: url(../public/assets/fonts/FoundersGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Regular';
+  src: url(../public/assets/fonts/FoundersGrotesk-Regular.otf);
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-Semibold';
+  src: url(../public/assets/fonts/FoundersGrotesk-Semibold.otf);
+}
+
+@font-face {
+  font-family: 'FoundersGrotesk-XCondensed-Bold';
+  src: url(../public/assets/fonts/FoundersGroteskXCond-Bold.otf);
+}
+
+/* Disable Scrollbar  */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* COLORS */
+:root {
+  --black-color: #101010;
+  --white-color: #ffffff;
+  --grey-color: #7C7C83;
+  --light-blue: #1C95B7;
+  --dark-blue: #187E9A;
+  --orange-color: #FF8709;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  text-decoration: none;
+  font-family: PPEditorialNew-Itlaic, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
